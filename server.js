@@ -8,7 +8,7 @@ app.use(logger('dev'))
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.all('*', function(req,res,next) {
-  res.sendFile('index.html', { root: __dirname + '/public/' })
+  res.sendFile('*', { root: __dirname + '/public/' })
 })
 
 app.use(function(req, res, next) {
