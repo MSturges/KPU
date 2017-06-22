@@ -1,0 +1,287 @@
+/*
+// Main
+White: rgb(255,255,255);
+Black: rgb(0,0,0);
+Basic Grey: rgb(149,149,149);
+KP Blue: rgb(0, 107, 166);
+
+// Secondary
+Green: rgb(87, 166, 53);
+Yellow: rgb(240, 170, 29);
+Violet: rgb(95, 100, 173);
+Teal: rgb(0, 161, 155);
+
+//Tertiary
+Deep Blue: rgb(0, 59, 113);
+Deep Red: rgb(187, 22, 84);
+light blue: rgb(108, 172,228);
+orange: rgb(250,102, 31);
+
+//Personal colors
+Lime Green: #a0ce4e;
+black: #282a2b;
+light-black: #363839;
+light-grey-border: #e9eaee;
+*/
+
+
+/* CSS used here will be applied after bootstrap.css */
+
+/*Layout*/
+html,body {
+}
+p {
+  line-height: 200%;
+}
+section {
+  padding: 10px !important;
+}
+.grey-hr {
+  border-top: 2px solid rgba(149,149,149, .3);
+  margin: 0;
+}
+/*End Body*/
+
+
+
+/**/
+/*Navigation Bar*/
+/**/
+.navbar-default {
+  background-color: rgb(0, 107, 166);
+  /*height: 75px;*/
+  }
+.navbar {
+  border: none !important;
+  border-radius: 0 !important;
+  color: white !important;
+  margin-bottom: 0;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+#kaiser-logo {
+  max-width: 100px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    /*margin-top: 15px;*/
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: rgb(95, 100, 173);
+}
+/*End Navigation Bar*/
+
+
+
+/**/
+/*Hero Image*/
+/**/
+.hero-image {
+  padding-top:50px;
+  background-size:cover;
+  background-image:url('images/bg-blue.png');
+  height: 300px;
+}
+.hero-image h1 {
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 55px;
+}
+
+.hero-image h4 {
+  font-weight: lighter;
+  color: white;
+  margin: 0;
+}
+
+.hero-image p {
+  color: white;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.affix {
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;
+  -o-transition:padding 0.2s ease-out;
+  transition:padding 0.2s ease-out;
+}
+.affix-top {
+  /* navbar style at top */
+  background:transparent;
+  border-color:transparent;
+  -webkit-transition:all 0.3s ease;
+  -moz-transition:all 0.3s ease;
+  -o-transition:all 0.3s ease;
+  transition:all 0.3s ease;
+}
+.affix-top .nav>li>a {
+   color: white;
+}
+.affix-top .navbar-collapse {
+   border-color:transparent;
+   box-shadow:initial;
+}
+/*End Hero Image*/
+
+#carousel-container {
+  background-color: rgb(249,249,249);
+  /*max-height: 390px;*/
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+.carousel-inner {
+  background-color: rgb(249,249,249);
+}
+.item {
+  min-height: 180px;
+  margin-bottom: 15px;
+}
+
+.choose-a-course {
+  float: left;
+  padding-left: 35px;
+  font-size: 20px;
+  margin: 0;
+}
+.view-all {
+  float: right;
+  padding-right: 35px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgb(0,159,223);
+}
+
+.view-all:hover{
+  cursor: pointer;
+  color:rgb(0,159,223) !important;
+}
+
+.custom-thumbnail {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: white;
+  min-height: 290px;
+  max-width: 220px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16);
+}
+
+.carousel-control {
+  width: 55px !important;
+}
+.carousel-control.left  {
+  background-image: none;
+  color: rgba(75, 75, 75, .5);
+  left: -60px;
+}
+.carousel-control.right {
+  background-image: none;
+  color: rgba(2, 75, 75, .5);
+  right: -60px;
+}
+
+/**/
+/*Section*/
+/**/
+
+
+.section-title {
+  padding-bottom: 25px;
+  font-weight: 400;
+  padding-left: 35px;
+  font-size: 20px;
+  margin: 0;
+}
+
+/*Our Projects*/
+.table-head {
+  background-color: rgb(0, 107, 166) !important;
+  color: white;
+}
+
+/*News Feed*/
+
+
+.thumbnail a {
+  min-width: 160px;
+}
+.news-feed-container {
+  width: 100%;
+  min-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+}
+
+@media (min-width : 992px) {
+  .news-feed-container {
+    max-width: 300px;
+  }
+
+}
+.news-feed-img{
+  width: 100%;
+  height: auto
+}
+
+
+
+/*Lime Green: #a0ce4e;
+black: #282a2b;
+light-black: #363839;
+light-grey-border: #e9eaee;*/
+
+
+
+/*Quick Links*/
+#quick-links-section {
+  background-color: #363839;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  /*width: 100%;*/
+  /*margin: 0 !important;*/
+  border-top: 10px solid #e9eaee;
+
+}
+.quick-link-container {
+  margin-bottom: 15px;
+  text-align: left;
+}
+.quick-links-title {
+  color: #a0ce4e;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+.quick-link-container a {
+  display: inline-block;
+  color: #e9eaee;;
+  margin-top: 7px !important;
+  font-size: 16px;
+}
+/*.quick-links {
+  text-align: center;
+}
+.quick-links input {
+  min-width: 160px;
+}*/
+
+
+/*footer*/
+footer {
+  height: 80px;
+  background-color: #282a2b;
+  text-align: center;
+  padding-top: 30px;
+}
+footer span {
+  padding: 20px;
+  color: #e9eaee;
+}
