@@ -81,7 +81,7 @@ section {
 .hero-image {
   padding-top:50px;
   background-size:cover;
-  background-image:url('images/bg-blue.png');
+  background-image:url('Images/bg-blue.png');
   height: 300px;
 }
 .hero-image h1 {
