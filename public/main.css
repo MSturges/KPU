@@ -146,6 +146,7 @@ section {
 
 .choose-a-course {
   float: left;
+  padding-bottom:25px;
   padding-left: 35px;
   font-size: 20px;
   margin: 0;
@@ -168,7 +169,7 @@ section {
   margin-right: auto;
   width: 100%;
   background-color: white;
-  min-height: 390px;
+  min-height: 420px;
   max-width: 290px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16);
 }
@@ -178,6 +179,22 @@ section {
 
 .custom-thumbnail h4 {
   padding: 15px;
+  padding-bottom: 5px;
+  margin: 1px;
+  min-height: 60px;
+
+}
+
+.custom-thumbnail p {
+  padding: 15px;
+}
+
+
+
+.custom-thumbnail a {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #17aa1c
 }
 
 
@@ -202,14 +219,19 @@ section {
 
 
 .section-title {
+  padding-top:25px;
   padding-bottom: 25px;
   font-weight: 400;
-  padding-left: 35px;
   font-size: 20px;
   margin: 0;
 }
 
+
 /*Our Projects*/
+
+#article-container{
+  margin-bottom: 30px;
+}
 .table-head {
   background-color: rgb(0, 107, 166) !important;
   color: white;
@@ -217,10 +239,46 @@ section {
 
 /*News*/
 
-
-.thumbnail a {
-  min-width: 160px;
+.thumbnail {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16) !important;
+  text-align: left !important;
 }
+
+.thumbnail h4{
+  padding: 5px;
+  min-height: 50px;
+}
+
+.thumbnail p {
+  padding: 5px;
+  padding-bottom: 15px;
+}
+.thumbnail a {
+  font-size: 16px !important;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #17aa1c
+}
+.article-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+.section-title-articles {
+  float: left;
+  padding-left: 10px;
+  font-size: 20px;
+  margin: 0;
+}
+.view-all-articles {
+  float: right;
+  padding-right: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgb(0,159,223);
+
+}
+
 .news-feed-container {
   width: 100%;
   min-height: 400px;
